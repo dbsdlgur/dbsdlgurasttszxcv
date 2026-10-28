@@ -79,10 +79,10 @@ alias npmr='npm run build'
 # =========================
 alias gs='git status'
 alias ggdd='git push origin eric && git checkout dev && git merge eric && git push origin dev && git checkout eric'
-alias ggmmo='git push origin ok && git checkout dev && git merge ok && git push origin dev && git checkout master && git merge dev && git push origin master && git checkout ok'
-alias ggmme='git fetch && git checkout dev && ggpp && git checkout eric && git merge --no-edit dev && ggmm'
 alias ggmm='git push origin eric && git checkout dev && git push origin dev && git checkout master && git merge dev && git push origin master && git checkout eric'
 alias ggpp='git fetch && git pull origin master'
+alias ggmmo='git push origin ok && git checkout dev && git merge ok && git push origin dev && git checkout master && git merge dev && git push origin master && git checkout ok'
+alias ggmme='git fetch && git checkout dev && ggpp && git checkout eric && git merge --no-edit dev && ggmm'
 alias ggrm='git rm --cached .env.systemd'
 alias ggca='git checkout --theirs c_admin/staticfiles/admin/admin.css' #confilct admin css
 alias gdff='git diff-tree --no-commit-id --name-status -r' # commit hash용
