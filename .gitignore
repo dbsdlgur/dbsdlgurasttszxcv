@@ -144,5 +144,10 @@ symphony*
 .ralphrc
 .superpowers
 
+# claude
+findings.md
+progress.md
+task_plan.md
+
 # Git worktrees
 .worktrees/
